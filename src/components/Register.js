@@ -73,7 +73,9 @@ const Register = () => {
       </form>
       <div>
         <button className="link-button">
-          <Link to="/">Go To Login Page</Link>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            Go To Login Page
+          </Link>
         </button>
       </div>
     </div>

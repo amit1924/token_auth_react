@@ -105,7 +105,12 @@ const Login = () => {
       </form>
 
       <button className="link-button">
-        <Link to="/register">Go To Register Page</Link>
+        <Link
+          to="/register"
+          style={{ textDecoration: "none", backgroundColor: "blue" }}
+        >
+          Go To Register Page
+        </Link>
       </button>
     </div>
   );
