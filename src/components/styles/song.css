@@ -1,0 +1,71 @@
+* {
+    background-color: black;
+    color: rgb(234, 255, 0); /* Add text color for better visibility */
+  }
+  
+  .music-box {
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: greenyellow;
+  }
+  
+  .album-cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .song-details {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #b92929;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media only screen and (max-width: 768px) {
+    .music-box {
+      margin: 4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .music-box {
+      margin: 2rem;
+    }
+  }
+
+  #prev{
+    background-color: rgb(38, 132, 30);
+  }
+  #prev:hover{
+    background-color: chocolate;
+  }
+
+  #next{
+    background-color: darkmagenta;
+  }
+  #next:hover{
+    background-color: mediumspringgreen;
+  }
